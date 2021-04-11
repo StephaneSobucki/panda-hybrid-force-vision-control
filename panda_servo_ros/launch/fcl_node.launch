@@ -1,0 +1,5 @@
+<launch>
+<node name="franka_pbvs_node" pkg="franka_pbvs" type="franka_pbvs_node" output="screen">
+	<param name="control_law" value="fcl" />
+</node>
+</launch>
